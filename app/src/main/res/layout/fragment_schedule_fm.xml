@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F4D9D9"
+    tools:context=".Fragment.schedule_fm">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#F4D6D6"
+            android:text="* 이미 예약된 시간을 확인해주세요"
+            android:textColor="#BC4545"
+            android:textSize="15sp"
+            app:cornerRadius="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_weight="1"
+            android:background="#eeeeee"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="예약일"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+
+                        android:id="@+id/tv_cl_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="2023-11-14" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="예약시간"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_s_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="시작시간"
+                        android:inputType="time"
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_e_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="종료시간"
+                        android:inputType="time"
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="사용인수"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_person"
+                        android:layout_width="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="인원수"
+                        android:inputType="numberSigned"
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="명" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="신청인"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_writer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:hint="이름을 입력하세요"
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="부서"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <EditText
+
+                        android:id="@+id/tv_res_depart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:hint="부서를 입력하세요"
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:padding="16dp"
+                        android:text="회의내용              및             참여인원"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <EditText
+
+                        android:id="@+id/tv_res_meet"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        android:background="#eeeeee"
+                        android:gravity="start"
+                        android:hint="회의내용 및 참여인원을 입력하세요."
+                        android:padding="16dp"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnReser"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:text="예약 신청"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
