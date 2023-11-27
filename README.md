@@ -99,11 +99,9 @@
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/be1570a3-3f58-4561-9a9d-963a40309d9f" alt="스플래쉬" width="300" height="600">
 <br>
 
-### 🍎예약취소화면
+### 🍎예약취소화면 
+스플래시화면에서 지정된 시간(초)이 지난 후 자동으로 화면이 전환되도록 구현하였다. asyncAfter 메소드에 seconds 파라미터에 시간 초를 지정해주고 함수 블록 안에 전환될 뷰를 정의하면 해당 시간이 지난 후 자동으로 화면전환이 이루어진다.
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/edd2e67d-9299-4d25-8517-ca78ab5ee53d" alt="스플래쉬" width="300" height="600">
-<br>
-
-#####  ▶️예외처리 
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/e05ac0e4-675f-4f9b-9e60-083d862b6ba3" alt="스플래쉬" width="300" height="600">
 <br>
 
