@@ -102,16 +102,18 @@
 ### 🍎예약취소화면
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/edd2e67d-9299-4d25-8517-ca78ab5ee53d" alt="스플래쉬" width="300" height="600">
 <br>
-##### ▶️예외처리 
+
+#####  ▶️예외처리 
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/e05ac0e4-675f-4f9b-9e60-083d862b6ba3" alt="스플래쉬" width="300" height="600">
 <br>
 
 ### 🍎예약신청화면
 <img src="https://github.com/yeaeunii/Schedule/assets/132533622/280c7a6e-8b4c-4256-ad92-389dad08f4de" alt="예약신청화면" width="300" height="600">
+<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42" alt="예약신청완료" width="300" height="600">
 <br>
 
 ##### ▶️예외처리 
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6" alt="이미에약된날짜" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/98763015-e6f4-4b44-b957-6ea52fd1d831" alt="이미예약된시간" width="300" height="600">
-<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42" alt="예약신청완료" width="300" height="600">
+
 <br>
