@@ -10,14 +10,14 @@
 2023.11.13 ~ 2023.11.24 (2주)
 <br>
 
-## 주요 기능
+## 1️⃣ 주요 기능
 * 카카오 로그인 인증
 * 회의실 에약 조회
 * 회의실 예약 취소
 * 회의실 예약 등록
 <br>
 
-## ⛏ 기술스택
+## 2️⃣ 기술스택
 <table>
     <tr>
         <th>구분</th>
@@ -79,7 +79,7 @@
 <br>
 
 
-## 🖥 화면 구성
+## 3️⃣ 화면 구성
 
 ### SPLASH/로그인/로그아웃
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/aa52689e-a2dc-442a-b135-82b8bdcb1d26" alt="스플래쉬" width="300" height="500">
@@ -88,8 +88,9 @@
 <br>
 
 ### 메인화면
-<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/d20afb2f-74eb-4add-9c56-437413223179" alt="스플래쉬" width="300" height="500">
+<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/f98b1a4a-7901-4476-97c5-bc81ded14c5d" alt="스플래쉬" width="300" height="500">
 <br>
+
 
 ### 예약상세조회화면
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/be1570a3-3f58-4561-9a9d-963a40309d9f" alt="스플래쉬" width="300" height="500">
@@ -101,7 +102,10 @@
 <br>
 
 ### 예약신청화면
-<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6" alt="이밍에약된날짜" width="300" height="500">
+<img src="https://github.com/yeaeunii/Schedule/assets/132533622/280c7a6e-8b4c-4256-ad92-389dad08f4de"alt="예약신청화면" width="300" height="500">
+<br>
+##### 예외처리 
+<img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6" alt="이미에약된날짜" width="300" height="500">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/98763015-e6f4-4b44-b957-6ea52fd1d831" alt="이미예약된시간" width="300" height="500">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42" alt="예약신청완료" width="300" height="500">
 <br>
