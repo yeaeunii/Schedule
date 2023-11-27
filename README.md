@@ -86,31 +86,45 @@
 <br>
 
 ### 🍎로그인/로그아웃
+- 사용자에게 카카오톡 앱이 있으면 앱과 연결되어 바로 로그인이 가능함 
+- 사용자는 앱에 연결된 계정이 아닌 다른 이메일로도 로그인이 가능함
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4c2b681f-52b5-4dc2-bb2b-8741a4cf2a3f" alt="스플래쉬" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/56fb5814-a016-4677-9da1-fe804faa059d" alt="스플래쉬" width="300" height="600">
 <br>
 
 ### 🍎메인화면
+ -오늘 날짜가 먼저 원으로 표시되고, 다른 날짜를 클릭시 진한 검정색으로 표시
+ -예약된 일정이 있는 날짜는 작은점으로 표시 됨
+ -달력에서 클릭한 날짜의 예약 정보(시간, 회의내용 및 인원, 부서, 신청인)가 제공
+ -item 어떤 부분을 눌러도 예약 상세 조회 가능
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/f98b1a4a-7901-4476-97c5-bc81ded14c5d" alt="스플래쉬" width="300" height="600">
 <br>
 
-
 ### 🍎예약상세조회화면
+- 클릭한 날짜 해당 일정의 예약일, 예약시간 시작시간 – 종료시간), 사용인수, 신청인, 부서,회의내용 및 참여인원 상세 내용을 보여줌
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/be1570a3-3f58-4561-9a9d-963a40309d9f" alt="스플래쉬" width="300" height="600">
 <br>
 
 ### 🍎예약취소화면 
-스플래시화면에서 지정된 시간(초)이 지난 후 자동으로 화면이 전환되도록 구현하였다. asyncAfter 메소드에 seconds 파라미터에 시간 초를 지정해주고 함수 블록 안에 전환될 뷰를 정의하면 해당 시간이 지난 후 자동으로 화면전환이 이루어진다.
+-취소인, 취소사유 입력란이 있는 Dialog 띄워줌
+- 예약할 당시 신청인 로그인ID와 같은 ID일 경우에만 취소가 가능함
+   -다를 경우, “기존 신청인이 아닙니다” Toast창 보여주고 예악 취소가 되지않음
+   -ID가 같을 경우, 다이얼로그가 꺼지면서 “예약이 취소 되었습니다” Toast창 보여주고 예약 취소 됨
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/edd2e67d-9299-4d25-8517-ca78ab5ee53d" alt="스플래쉬" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/e05ac0e4-675f-4f9b-9e60-083d862b6ba3" alt="스플래쉬" width="300" height="600">
 <br>
 
 ### 🍎예약신청화면
+- 클릭한 날짜가 예약일로 보여지고, 예약시간 (시작시간 – 종료시간),사용인수,신청인, 부서,회의내용 및 참여인원 상세 정보 입력란 있음
 <img src="https://github.com/yeaeunii/Schedule/assets/132533622/280c7a6e-8b4c-4256-ad92-389dad08f4de" alt="예약신청화면" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42" alt="예약신청완료" width="300" height="600">
 <br>
 
 ##### ▶️예외처리 
+-이미 지난 날짜 신청시, “지난 날짜는 예약이 불가합니다”,
+-이미 예약된 시간 신청시, “이미 예약된 시간입니다”,
+-필수값 미입력 신청시, “필수값을 입력해주세요”  Toast창으로 보여주고 예약 안됨
+-모두 충족시, “예약이 완료 되었습니다” Toast창으로 보여주고 메인화면으로 이동
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6" alt="이미에약된날짜" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/98763015-e6f4-4b44-b957-6ea52fd1d831" alt="이미예약된시간" width="300" height="600">
 
