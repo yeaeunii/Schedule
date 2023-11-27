@@ -1,5 +1,4 @@
 # 📎 
-![image](https://user-images.githubusercontent.com/25995055/178401309-2a2ffc86-ef45-439b-bfd8-6978312100bc.png)
 
 
 ## 서비스 소개
@@ -7,11 +6,11 @@
 * 서비스설명: 인증된 직원들만 회의실 예약, 조회가 가능하며, 기존 예약자만 예약취소 할 수 있는 실시간 회의실 관리 앱
 <br>
 
-## 📅 프로젝트 기간
+## 프로젝트 기간
 2023.11.13 ~ 2023.11.24 (2주)
 <br>
 
-## ⭐ 주요 기능
+## 주요 기능
 * 카카오 로그인 인증
 * 회의실 에약 조회
 * 회의실 예약 취소
@@ -39,7 +38,7 @@
     <tr>
         <td>개발도구</td>
         <td>
-       <img src="https://img.shields.io/badge/androidstudio-#3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
+       <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"/>
         </td>
     </tr>
     <tr>
@@ -58,9 +57,6 @@
     </tr>
    <tr>
         <td>프레임워크</td>
-        <td>
-            
-        </td>
     </tr>
     <tr>
         <td>협업도구</td>
@@ -80,34 +76,30 @@
 
 <br>
 
-## ⚙ 시스템 아키텍처(구조) 예시 
-![서비스 아키텍처](https://user-images.githubusercontent.com/25995055/169925538-15867bd9-aa0b-42fc-a39b-88981e926e51.png)
-<br>
-
-## 📌 SW유스케이스
-![image](https://user-images.githubusercontent.com/25995055/178401023-9a015e66-aa6e-4d74-8564-9b1f9d306649.png)
-<br>
-
-## 📌 서비스 흐름도
-![image](https://user-images.githubusercontent.com/25995055/178401048-d6484bda-a2d7-40e1-998b-2bd195cd9f89.png)
-<br>
-
-## 📌 ER다이어그램
-![image](https://user-images.githubusercontent.com/25995055/169925318-102784c2-893f-4fd7-bec9-a54c44b669d4.png)
-<br>
 
 ## 🖥 화면 구성
 
-### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
-![image](https://user-images.githubusercontent.com/25995055/178401098-95f15a0e-a2de-415e-83d5-883bb4cb0656.png)
+### SPLASH/로그인/로그아웃
+![스플래쉬](https://github.com/yeaeunii/Schedule/assets/132533622/aa52689e-a2dc-442a-b135-82b8bdcb1d26)
+![로그인화면](https://github.com/yeaeunii/Schedule/assets/132533622/4c2b681f-52b5-4dc2-bb2b-8741a4cf2a3f)
+![로그아웃-2](https://github.com/yeaeunii/Schedule/assets/132533622/56fb5814-a016-4677-9da1-fe804faa059d)
 <br>
 
-### 옷 정보/코디 추천(날씨, 팁, 오늘의 코디, 참고할 수 있는 코디)
-![image](https://user-images.githubusercontent.com/25995055/178401127-287e6de2-4396-49fc-a107-59c4d5cd55c7.png)
+### 메인화면
+![예약정보 메인화면](https://github.com/yeaeunii/Schedule/assets/132533622/d20afb2f-74eb-4add-9c56-437413223179)
 <br>
 
-### 일정/고객센터
-![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+### 예약상세조회화면
+![조회 디테일](https://github.com/yeaeunii/Schedule/assets/132533622/be1570a3-3f58-4561-9a9d-963a40309d9f)
 <br>
 
+### 예약취소화면
+![예약취소- 기존신청인](https://github.com/yeaeunii/Schedule/assets/132533622/edd2e67d-9299-4d25-8517-ca78ab5ee53d)
+![예약취소- 예약취소ok](https://github.com/yeaeunii/Schedule/assets/132533622/e05ac0e4-675f-4f9b-9e60-083d862b6ba3)
+<br>
 
+### 예약신청화면
+![이미 예약된 날짜](https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6)
+![이미 예약된 시간](https://github.com/yeaeunii/Schedule/assets/132533622/98763015-e6f4-4b44-b957-6ea52fd1d831)
+![예약신청완료](https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42)
+<br>
