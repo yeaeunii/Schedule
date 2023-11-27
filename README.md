@@ -44,7 +44,7 @@
     <tr>
         <td>서버환경</td>
         <td>
-            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/> 
+            <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=SpringBoot&logoColor=white"/> 
             <img src="https://img.shields.io/badge/Apache Tomcat 9.0-D22128?style=for-the-badge&logo=Apache Tomcat&logoColor=white"/> 
         </td>
     </tr>
@@ -70,7 +70,7 @@
      <tr>
         <td>프레임워크</td></td>
         <td>
-         <img src="https://img.shields.io/badge/JSON-#000000?style=for-the-badge&logo=JSON&logoColor=white" > 
+            <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=JSON&logoColor=white"/>
         </td>
     </tr>
 </table>
