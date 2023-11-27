@@ -81,8 +81,11 @@
 
 ## 3️⃣ 화면 구성
 
-### SPLASH/로그인/로그아웃
+### SPLASH
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/aa52689e-a2dc-442a-b135-82b8bdcb1d26" alt="스플래쉬" width="300" height="600">
+<br>
+
+### 로그인/로그아웃
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4c2b681f-52b5-4dc2-bb2b-8741a4cf2a3f" alt="스플래쉬" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/56fb5814-a016-4677-9da1-fe804faa059d" alt="스플래쉬" width="300" height="600">
 <br>
@@ -105,7 +108,7 @@
 <img src="https://github.com/yeaeunii/Schedule/assets/132533622/280c7a6e-8b4c-4256-ad92-389dad08f4de" alt="예약신청화면" width="300" height="600">
 <br>
 
-##### 예외처리 
+##### *****예외처리 
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/4bbf4df4-947c-47c9-8b01-ff95452316e6" alt="이미에약된날짜" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/98763015-e6f4-4b44-b957-6ea52fd1d831" alt="이미예약된시간" width="300" height="600">
 <img src ="https://github.com/yeaeunii/Schedule/assets/132533622/7231a6d2-8970-43d6-a597-8bed11335b42" alt="예약신청완료" width="300" height="600">
